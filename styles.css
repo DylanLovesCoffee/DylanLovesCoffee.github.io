@@ -1,3 +1,49 @@
 body {
   background: lavender;
+  max-width: 1000px;
+  font-family: arial;
+}
+
+table {
+  max-width: 860px;
+  display: block;
+  margin: auto;
+  background-image: url("https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTSXIVwHba6ADOlT3thWlkmH0hVwCHJ8NnHxit1lsy1fYXV06NR");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.headings {
+  padding: 10px;
+  color: blue;
+}
+
+label {
+  font-style: oblique;
+  color: grey;
+}
+
+img {
+  display: block;
+  margin: 0px auto;
+  padding: 25px;
+}
+
+#welcome {
+  padding: 15px;
+  max-width: 700px;
+  text-shadow: 1px 1px 2px grey;
+  font-style: oblique;
+  font-family: serif;
+}
+
+.intro {
+  font-style: oblique;
+  font-size: 1.2em;
+}
+
+.list {
+   font-size: 1.2em;
+   color: blue;
 }
