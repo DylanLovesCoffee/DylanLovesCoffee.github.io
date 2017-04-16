@@ -5,6 +5,7 @@ body {
 }
 
 table {
+  border: 1px solid black;
   max-width: 860px;
   display: block;
   margin: auto;
@@ -46,4 +47,15 @@ img {
 .list {
    font-size: 1.2em;
    color: blue;
+}
+
+a {
+  color: grey;
+}
+
+@media screen and (max-width: 650px) {
+  body {
+    background-color: white;
+    font-size: 1em;
+  }
 }
