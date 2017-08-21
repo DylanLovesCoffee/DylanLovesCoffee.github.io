@@ -9,10 +9,13 @@ body, html {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  margin: -10px;
 }
 
 .intro {
   color: white;
   top: 100px;
+}
+
+.about-photo {
+  height: 40%;
 }
