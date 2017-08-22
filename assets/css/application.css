@@ -28,6 +28,10 @@ body, html {
   background-size: cover;
 }
 
-.connect {
-  text-align: center;
+.contact-form {
+  margin: 30px;
+}
+
+.contact-information {
+  padding: 10px;
 }
