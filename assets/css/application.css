@@ -19,3 +19,15 @@ body, html {
 .about-photo {
   height: 40%;
 }
+
+.contact-photo {
+  height: 80%;
+  background-image: url(../../hanny-naibaho-308083.jpg);
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.connect {
+  text-align: center;
+}
