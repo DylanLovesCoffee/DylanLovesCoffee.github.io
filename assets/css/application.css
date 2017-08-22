@@ -1,5 +1,6 @@
 body, html {
   height: 100%;
+  overflow-x: hidden;
   margin: 0%;
 }
 
@@ -28,10 +29,14 @@ body, html {
   background-size: cover;
 }
 
+.contact-information {
+  padding: 10px;
+}
+
 .contact-form {
   margin: 30px;
 }
 
-.contact-information {
-  padding: 10px;
+.contact-text {
+  margin: 30px;
 }
