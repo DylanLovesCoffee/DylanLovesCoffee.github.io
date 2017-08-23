@@ -1,5 +1,6 @@
 body, html {
   height: 100%;
+  overflow-x: hidden;
   margin: 0%;
 }
 
@@ -28,6 +29,14 @@ body, html {
   background-size: cover;
 }
 
-.connect {
-  text-align: center;
+.contact-information {
+  padding: 10px;
+}
+
+.contact-form {
+  margin: 30px;
+}
+
+.contact-text {
+  margin: 30px;
 }
