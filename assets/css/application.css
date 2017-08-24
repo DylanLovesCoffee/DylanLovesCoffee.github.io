@@ -40,3 +40,21 @@ body, html {
 .contact-text {
   margin: 30px;
 }
+
+.about-text {
+  padding: 10px;
+  margin: 10px;
+}
+
+.about-photo-container {
+  padding: 10px;
+  margin: 10px;
+}
+
+.about-photo {
+  height: 50%;
+  background-image: url(../../keith-misner-308.jpg);
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
