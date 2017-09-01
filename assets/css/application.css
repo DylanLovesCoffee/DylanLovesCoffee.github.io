@@ -5,7 +5,7 @@ body, html {
 }
 
 .bg {
-  background-image: url(../../annie-spratt-330560.jpg);
+  background-image: url(../../photos/annie-spratt-330560.jpg);
   height: 100%;
   background-position: center;
   background-repeat: no-repeat;
@@ -24,7 +24,7 @@ body, html {
 
 .contact-photo {
   height: 80%;
-  background-image: url(../../hanny-naibaho-308083.jpg);
+  background-image: url(../../photos/hanny-naibaho-308083.jpg);
   background-position: top;
   background-repeat: no-repeat;
   background-size: cover;
@@ -54,7 +54,7 @@ body, html {
 
 .about-photo {
   height: 50%;
-  background-image: url(../../keith-misner-308.jpg);
+  background-image: url(../../photos/keith-misner-308.jpg);
   background-position: top;
   background-repeat: no-repeat;
   background-size: cover;
@@ -62,8 +62,14 @@ body, html {
 
 .portfolio-list {
   height: 100%;
-  background-image: url(../../dark_wood.png);
+  background-image: url(../../photos/ehud-neuhaus-298628.jpg);
   background-position: top;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+#omakase {
+  max-width: 50%;
+  height: auto;
+  width: auto;
 }
