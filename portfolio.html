@@ -10,37 +10,44 @@
     <title>Dylan Yang | Developer</title>
   </head>
   <body>
-    <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
       <a href="index.html" class="navbar-brand"><strong>Dylan Yang</strong></a>
-      <ul class="navbar-nav">
-        <li class="nav-item">
-          <a href="about.html" class="nav-link">About</a>
-        </li>
-        <li class="nav-item">
-          <a href="portfolio.html" class="nav-link active">Portfolio</a>
-        </li>
-        <li class="nav-item">
-          <a href="contact.html" class="nav-link">Contact</a>
-        </li>
-      </ul>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsedNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="collapsedNavbar">
+        <ul class="nav navbar-nav">
+          <li class="nav-item">
+            <a href="about.html" class="nav-link">About</a>
+          </li>
+          <li class="nav-item">
+            <a href="portfolio.html" class="nav-link active">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a href="contact.html" class="nav-link">Contact</a>
+          </li>
+        </ul>
+      </div>
     </nav>
 
     <section class="portfolio-list row">
-      <div class="col-sm-4 container">
+      <div class="col-md-4 container">
         <div id="omakase" class="card bg-transparent text-white mx-auto d-block">
           <img class="card-img-top img-fluid" src="photos/omakase-1.png">
-          <div class="card-body">
-            <h4 class="card-title text-center">Omakase</h4>
+          <div class="card-body text-center">
+            <button type="button" class="btn btn-dark btn-sm"><a href="https://github.com/DylanLovesCoffee/omakase-frontend">View Project</a></button>
           </div>
         </div>
       </div>
-      <div class="col-sm-4 container">
-        <h1>Col 2</h1>
+      <div class="col-md-4 container">
+        <h1></h1>
       </div>
-      <div class="col-sm-4 container">
-        <h1>Col 3</h1>
+      <div class="col-md-4 container">
+        <h1></h1>
       </div>
     </section>
-
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
   </body>
 </html>

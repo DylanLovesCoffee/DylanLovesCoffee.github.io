@@ -18,10 +18,6 @@ body, html {
   text-shadow: 2px 2px 2px grey;
 }
 
-.about-photo {
-  height: 40%;
-}
-
 .contact-photo {
   height: 80%;
   background-image: url(../../photos/hanny-naibaho-308083.jpg);
@@ -40,6 +36,13 @@ body, html {
 
 .contact-text {
   margin: 30px;
+}
+
+.about-intro {
+  color: white;
+  height: 200px;
+  padding: 150px;
+  text-shadow: 2px 2px 2px black;
 }
 
 .about-text {
@@ -70,6 +73,7 @@ body, html {
 
 #omakase {
   max-width: 50%;
+  max-height: 30%;
   height: auto;
   width: auto;
 }
