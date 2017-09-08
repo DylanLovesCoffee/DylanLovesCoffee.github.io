@@ -10,30 +10,42 @@
     <title>Dylan Yang | Developer</title>
   </head>
   <body>
-    <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
       <a href="index.html" class="navbar-brand"><strong>Dylan Yang</strong></a>
-      <ul class="navbar-nav">
-        <li class="nav-item">
-          <a href="about.html" class="nav-link active">About</a>
-        </li>
-        <li class="nav-item">
-          <a href="portfolio.html" class="nav-link">Portfolio</a>
-        </li>
-        <li class="nav-item">
-          <a href="contact.html" class="nav-link">Contact</a>
-        </li>
-      </ul>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsedNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="collapsedNavbar">
+        <ul class="nav navbar-nav">
+          <li class="nav-item">
+            <a href="about.html" class="nav-link active">About</a>
+          </li>
+          <li class="nav-item">
+            <a href="portfolio.html" class="nav-link">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a href="contact.html" class="nav-link">Contact</a>
+          </li>
+        </ul>
+      </div>
     </nav>
     <section class="about-photo">
+      <div class="container-fluid text-center about-intro">
+        <h4>Learn more about my personal and professional goals.</h4>
+      </div>
     </section>
     <section class="row">
       <div class="col about-text">
         <div class="container">
           <h2>Who I Am</h2>
           <br>
-          <p>Hi, I'm Dylan.</p>
-          <p>I'm a full-stack web developer located in New York City.</p>
-          <p>If you're interested in diving deeper into my professional background, please take a look at my previous accomplishments.</p>
+          <div class="lead">
+            <p>Hi, I'm Dylan.</p>
+            <p>I'm a full-stack web developer located in New York City.</p>
+            <p>I was previously a software as a service account manager, where I spoke about tech day to day and discussed communications strategies with C-level executives from varying industries.</p>
+            <p>Over that time, my interest in software grew to the point where I wanted to understand how to create my own software. From there, I started to learn web development.</p>
+            <p>If you're interested in diving deeper into my professional background, please take a look at my previous accomplishments.</p>
+          </div>
         </div>
         <div class="container">
           <button type="button" class="btn btn-outline-dark">Download Resume</button>
@@ -43,5 +55,8 @@
         <img src="photos/dylan.jpg" class="rounded img-fluid">
       </div>
     </section>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
   </body>
 </html>

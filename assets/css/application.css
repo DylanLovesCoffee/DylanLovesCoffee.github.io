@@ -38,6 +38,13 @@ body, html {
   margin: 30px;
 }
 
+.about-intro {
+  color: white;
+  height: 200px;
+  padding: 150px;
+  text-shadow: 2px 2px 2px black;
+}
+
 .about-text {
   padding: 10px;
   margin: 10px;
