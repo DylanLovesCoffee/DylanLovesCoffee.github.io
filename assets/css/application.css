@@ -70,6 +70,10 @@ body, html {
   background-size: cover;
 }
 
+.about-containers {
+  padding: 15px;
+}
+
 #omakase {
   max-width: 50%;
   height: auto;
@@ -86,4 +90,8 @@ body, html {
   margin-top: 45px;
   text-shadow: 2px 2px 2px black;
   border-width: 2px;
+}
+
+#github {
+  margin-left: 20px;
 }
