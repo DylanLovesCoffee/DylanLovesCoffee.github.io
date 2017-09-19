@@ -22,4 +22,8 @@ $(document).ready(function(){
     window.open("https://github.com/DylanLovesCoffee/omakase-frontend")
   });
 
+  $("#connect-with-me").on("click", function() {
+    window.location = "https://dylanlovescoffee.github.io/contact.html"
+  });
+
 });

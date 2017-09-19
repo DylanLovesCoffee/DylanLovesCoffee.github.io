@@ -81,3 +81,9 @@ body, html {
   height: auto;
   width: auto;
 }
+
+#connect-with-me {
+  margin-top: 45px;
+  text-shadow: 2px 2px 2px black;
+  border-width: 2px;
+}
