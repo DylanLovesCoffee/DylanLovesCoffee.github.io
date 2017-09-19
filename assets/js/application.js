@@ -26,4 +26,8 @@ $(document).ready(function(){
     window.location = "https://dylanlovescoffee.github.io/contact.html"
   });
 
+  $("#resume-button").on("click", function() {
+    location.href = "./assets/documents/dylan_yang_resume.pdf"
+  });
+
 });
