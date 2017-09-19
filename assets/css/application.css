@@ -64,15 +64,34 @@ body, html {
 }
 
 .portfolio-list {
-  height: 100%;
+  background-image: url(../../photos/keith-misner-308.jpg);
+  background-repeat: repeat-y;
   background-position: top;
-  background-repeat: no-repeat;
   background-size: cover;
+}
+
+.resume-containers {
+  padding: 10px;
 }
 
 #omakase {
   max-width: 50%;
-  max-height: 30%;
   height: auto;
   width: auto;
+}
+
+#forage {
+  max-width: 100%;
+  height: auto;
+  width: auto;
+}
+
+#connect-with-me {
+  margin-top: 45px;
+  text-shadow: 2px 2px 2px black;
+  border-width: 2px;
+}
+
+#github {
+  margin-left: 15px;
 }
