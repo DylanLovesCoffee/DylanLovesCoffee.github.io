@@ -94,13 +94,21 @@ body, html {
 }
 
 #omakase {
-  max-width: 50%;
+  max-width: 40%;
   height: auto;
   width: auto;
 }
 
 #forage {
+  max-width: 90%;
+  height: auto;
+  width: auto;
+}
+
+#railsforce {
   max-width: 100%;
+  display: flex;
+  margin-top: 100px;
   height: auto;
   width: auto;
 }

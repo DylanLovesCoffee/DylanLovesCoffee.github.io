@@ -22,6 +22,10 @@ $(document).ready(function(){
     window.open("https://github.com/DylanLovesCoffee/omakase-frontend")
   });
 
+  $("#railsforce").on("click", function() {
+    window.open("https://github.com/DylanLovesCoffee/rails-crm")
+  });
+
   $("#linkedin").on("click", function() {
     window.open("https://www.linkedin.com/in/dylanwyang/")
   });
