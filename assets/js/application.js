@@ -14,16 +14,24 @@ $(document).ready(function(){
     $(".thanks").fadeIn(2000);
   });
 
-  $("#forage-button").on("click", function() {
+  $("#forage-source").on("click", function() {
     window.open("https://github.com/DylanLovesCoffee/forage")
   });
 
-  $("#omakase-button").on("click", function() {
+  $("#omakase-source").on("click", function() {
     window.open("https://github.com/DylanLovesCoffee/omakase-frontend")
   });
 
-  $("#railsforce").on("click", function() {
+  $("#railsforce-source").on("click", function() {
     window.open("https://github.com/DylanLovesCoffee/rails-crm")
+  });
+
+  $("#js-racer-source").on("click", function() {
+    window.open("https://github.com/DylanLovesCoffee/javascript-racer")
+  });
+
+  $("#js-racer-live").on("click", function() {
+    window.open("https://powerful-lake-13307.herokuapp.com/")
   });
 
   $("#linkedin").on("click", function() {
