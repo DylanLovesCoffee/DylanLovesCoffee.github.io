@@ -1,0 +1,105 @@
+@import "tailwindcss";
+
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime:wght@400;700&family=Consolas:wght@400;700&family=Lucida+Console:wght@400;700&display=swap');
+
+:root {
+  --powershell-blue: #012456;
+  --powershell-text: #FFFFFF;
+  --powershell-accent: #00BFFF;
+  --powershell-light-blue: #87CEEB;
+  --powershell-gray: #C0C0C0;
+  --powershell-dark-gray: #808080;
+  --windows-border: #3C3C3C;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Courier Prime', 'Consolas', 'Lucida Console', monospace;
+  background-color: var(--powershell-blue);
+  color: var(--powershell-text);
+  overflow-x: hidden;
+  line-height: 1.4;
+}
+
+.font-mono {
+  font-family: 'Courier Prime', 'Consolas', 'Lucida Console', monospace;
+}
+
+.retro-glow {
+  text-shadow: 1px 1px 0px var(--powershell-dark-gray);
+}
+
+.powershell-accent {
+  color: var(--powershell-accent);
+}
+
+.windows-border {
+  border: 2px solid var(--windows-border);
+  border-top-color: var(--powershell-gray);
+  border-left-color: var(--powershell-gray);
+  box-shadow: inset 1px 1px 0px var(--powershell-gray), inset -1px -1px 0px var(--powershell-dark-gray);
+}
+
+.windows-inset {
+  border: 2px solid var(--windows-border);
+  border-top-color: var(--powershell-dark-gray);
+  border-left-color: var(--powershell-dark-gray);
+  border-bottom-color: var(--powershell-gray);
+  border-right-color: var(--powershell-gray);
+  box-shadow: inset -1px -1px 0px var(--powershell-gray), inset 1px 1px 0px var(--powershell-dark-gray);
+}
+
+.windows-pattern {
+  background-color: var(--powershell-blue);
+  background-image: 
+    radial-gradient(circle at 1px 1px, var(--powershell-dark-gray) 1px, transparent 0);
+  background-size: 20px 20px;
+}
+
+.terminal-scanlines::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(transparent 50%, rgba(192, 192, 192, 0.02) 50%);
+  background-size: 100% 2px;
+  pointer-events: none;
+}
+
+.windows-titlebar {
+  background: linear-gradient(to bottom, var(--powershell-gray), var(--powershell-dark-gray));
+  border-bottom: 1px solid var(--powershell-dark-gray);
+}
+
+.windows-button {
+  background: linear-gradient(to bottom, var(--powershell-gray), var(--powershell-dark-gray));
+  border: 1px solid var(--windows-border);
+  border-top-color: var(--powershell-gray);
+  border-left-color: var(--powershell-gray);
+}
+
+.windows-button:hover {
+  background: linear-gradient(to bottom, var(--powershell-light-blue), var(--powershell-accent));
+}
+
+.windows-button:active {
+  border-top-color: var(--powershell-dark-gray);
+  border-left-color: var(--powershell-dark-gray);
+  border-bottom-color: var(--powershell-gray);
+  border-right-color: var(--powershell-gray);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
