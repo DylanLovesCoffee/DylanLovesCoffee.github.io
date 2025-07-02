@@ -98,11 +98,25 @@ Use ↑↓ to navigate, ENTER to select:`
                   <span className="text-white">{line}</span>
                 </span>
               ) : line.startsWith('[') ? (
-                <span className={`${
-                  terminalState === 'showing-menu' && selectedIndex === (line.startsWith('[1]') ? 0 : 1)
-                    ? 'bg-blue-600 bg-opacity-40 text-white'
-                    : 'text-gray-200'
-                } ${terminalState === 'showing-menu' ? 'cursor-pointer' : ''}`}>
+                <span 
+                  className={`${
+                    terminalState === 'showing-menu' && selectedIndex === (line.startsWith('[1]') ? 0 : 1)
+                      ? 'bg-blue-600 bg-opacity-40 text-white'
+                      : 'text-gray-200'
+                  } ${terminalState === 'showing-menu' ? 'cursor-pointer' : ''}`}
+                  onClick={() => {
+                    if (terminalState === 'showing-menu') {
+                      const menuIndex = line.startsWith('[1]') ? 0 : 1
+                      setSelectedIndex(menuIndex)
+                      if (menuIndex === 0) {
+                        setActiveSection('about')
+                      } else {
+                        setActiveSection('contact')
+                      }
+                      setTerminalState('showing-content')
+                    }
+                  }}
+                >
                   {terminalState === 'showing-menu' && selectedIndex === (line.startsWith('[1]') ? 0 : 1) && '> '}
                   {line}
                 </span>

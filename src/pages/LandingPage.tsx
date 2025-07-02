@@ -3,7 +3,6 @@ import { useNavigate } from 'react-router-dom'
 import PageLayout from '../components/layout/PageLayout'
 import TerminalContainer from '../components/ui/TerminalContainer'
 import TerminalContent from '../components/ui/TerminalContent'
-import Button from '../components/ui/Button'
 import { Flex } from '../components/ui/Container'
 
 interface LandingPageProps {
@@ -90,9 +89,14 @@ Ready.`
                   Press <span className="bg-white text-black px-2 py-1 font-bold">ENTER</span> to continue
                 </div>
               </div>
-              <Button onClick={handleEnter} autoFocus={showEnterButton}>
+              <span 
+                onClick={handleEnter} 
+                className="font-mono text-white text-lg cursor-pointer hover:text-gray-300"
+                tabIndex={0}
+                onKeyDown={(e) => e.key === 'Enter' && handleEnter()}
+              >
                 [ ACCESS PORTFOLIO ]
-              </Button>
+              </span>
             </Flex>
           )}
         </TerminalContainer>
